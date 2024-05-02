@@ -1,0 +1,90 @@
+body{
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin: 0px;;
+}
+
+/* Hero */
+.hero{
+	height: 600px;
+	margin:0px;
+
+	display:flex;
+	align-items: center;
+    justify-content: center;
+	flex-direction: column;
+
+
+	/* probaby do this first */
+	background-image: repeating-linear-gradient(0deg, transparent 0px, transparent 25px,hsla(29,69%,89%,0.08) 25px, hsla(29,69%,89%,0.08) 27px,transparent 27px, transparent 51px),repeating-linear-gradient(90deg, transparent 0px, transparent 25px,hsla(29,69%,89%,0.08) 25px, hsla(29,69%,89%,0.08) 27px,transparent 27px, transparent 51px),repeating-linear-gradient(90deg, transparent 0px, transparent 50px,hsla(156,85%,58%,0.08) 50px, hsla(156,85%,58%,0.08) 52px,transparent 52px, transparent 102px),repeating-linear-gradient(0deg, transparent 0px, transparent 50px,hsla(156,85%,58%,0.08) 50px, hsla(156,85%,58%,0.08) 52px,transparent 52px, transparent 102px),repeating-linear-gradient(0deg, hsla(81,81%,82%,0.08) 0px, hsla(81,81%,82%,0.08) 2px,transparent 2px, transparent 102px),repeating-linear-gradient(90deg, hsla(81,81%,82%,0.08) 0px, hsla(81,81%,82%,0.08) 2px,transparent 2px, transparent 102px),linear-gradient(90deg, rgb(158,193,114),rgb(77,128,9));
+	color:white;
+	font-size: 20px;
+
+}
+
+.hero h1 {
+	margin-bottom:0px;
+}
+/* ======== */
+
+
+
+
+/* Topanv */
+.topnav {
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+
+	height:60px;
+}
+
+.topnav a {
+	text-decoration: none;
+	color:black;
+
+	margin: 0px 20px 0px 20px;
+
+	/* optional */
+	letter-spacing: 2px;
+}
+
+
+/* optional */
+.topnav h3 {
+	font-size: 30px; 
+}
+
+/* ============ */
+
+
+
+/* content */
+
+.content {
+	margin:100px 10px 100px 10px;
+
+	display:flex;
+	align-items: center;
+    justify-content: center;
+}
+
+.content .text {
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+
+.content img {
+	height: 200px;
+	width: 200px;
+	object-fit: cover;
+}
+
+.content p {
+	width: 500px;
+	margin: 0px 30px 0px 30px;
+
+	/* optional */
+	text-indent:25px;
+	line-height:30px;
+}
